@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href={% static 'css/dist/styles.css' %}>
+    <title>{% block title %}My amazing site{% endblock %}</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <nav>
+            {% include 'includes/nav.html' %}
+        </nav>
+    </div>
+
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+    {% block scripts %} {% endblock %}
+
+    <div id="footer">
+        <nav>
+            {% include 'includes/footer.html' %}
+        </nav>
+    </div>
+
+</body>
+
+</html>
