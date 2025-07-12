@@ -95,6 +95,7 @@ python manage.py migrate
   ```sh
   python launch-dev.py
   ``` 
+  - use Ctrl + C or Command + C to stop/terminate the launch-dev.py
 
 Visit `http://localhost:8000` in your browser.
 
