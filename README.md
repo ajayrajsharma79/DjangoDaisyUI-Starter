@@ -91,7 +91,7 @@ python manage.py migrate
   python manage.py runserver
   ```
 
-- Alternatively Starting both Django Server & To monitor CSS chages in single terminal
+- Alternatively to start both Django Server & to monitor CSS chages in single terminal
   ```sh
   python launch-dev.py
   ``` 
