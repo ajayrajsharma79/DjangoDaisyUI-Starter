@@ -87,9 +87,9 @@ python manage.py migrate
   ```
 
 - Start Django Server in new terminal:
-```sh
-python manage.py runserver
-```
+  ```sh
+  python manage.py runserver
+  ```
 
 Visit `http://localhost:8000` in your browser.
 
