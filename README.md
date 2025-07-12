@@ -81,12 +81,12 @@ python manage.py migrate
 
 ### 7. Start Development Server
 
-- Monitory CSS chages during live development:
+- To monitor CSS chages during live development:
   ```sh
   npm run watch:css
   ```
 
-- Start Django Server
+- Start Django Server in new terminal:
 ```sh
 python manage.py runserver
 ```
