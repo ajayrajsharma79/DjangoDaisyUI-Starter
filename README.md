@@ -91,6 +91,11 @@ python manage.py migrate
   python manage.py runserver
   ```
 
+- Alternatively Starting both Django Server & To monitor CSS chages in single terminal
+  ```sh
+  python launch-dev.py
+  ``` 
+
 Visit `http://localhost:8000` in your browser.
 
 ## Customization
