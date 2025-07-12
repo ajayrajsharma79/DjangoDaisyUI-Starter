@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyd
+*.pyo
+*.pdb
+*.egg
+*.eggs
+*.manifest
+*.spec
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Node.js
+node_modules/
+dist/
+
+# Environment/config files
+.env
+.env.*
+.pg_service.conf
+.pgpass
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build
+build/
+
+# Misc
+*.bak
+*.swp
+*.swo
+
+# Tailwind/DaisyUI
+*.css.map
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# Others
+*.sqlite3
+
